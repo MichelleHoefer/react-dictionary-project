@@ -1,0 +1,25 @@
+.phonetic {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.phonetic-text {
+  font-style: italic;
+  font-size: 1.2em;
+  color: #444;
+}
+
+.speak-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  color: #333;
+  transition: transform 0.2s;
+}
+
+.speak-button:hover {
+  transform: scale(1.2);
+}
