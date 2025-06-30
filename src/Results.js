@@ -26,6 +26,7 @@ export default function Results(props) {
             <Meaning key={index} meaning={meaning} />{" "}
           </section>
         ))}
+        
       </div>
     );
   } else {
