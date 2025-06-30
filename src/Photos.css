@@ -1,4 +1,16 @@
 .photos img {
+  width: 100%;
+  height: auto;
+  display: block;
   border-radius: 3px;
   margin-bottom: 20px;
+}
+
+.photo-card {
+  margin-bottom: 20px;
+}
+
+.photos img:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
 }

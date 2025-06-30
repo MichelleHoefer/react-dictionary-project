@@ -1,10 +1,28 @@
-h4 {
-  text-transform: capitalize;
-}
 .meanings {
   background-color: white;
   padding: 15px 20px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  border-left: 4px solid lightslategray;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.meanings h4 {
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .meanings {
+    padding: 12px 15px;
+    font-size: 0.95rem;
+  }
+
+  .meanings p,
+  .meanings em {
+    margin-bottom: 8px;
+  }
 }
