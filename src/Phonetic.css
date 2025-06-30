@@ -12,12 +12,15 @@
 }
 
 .speak-button {
-  background: none;
+  background: #ffffff;
   border: none;
   cursor: pointer;
   font-size: 1.2em;
   color: #333;
-  transition: transform 0.2s;
+  transition: transform 0.2s ease-in-out;
+  border: 1px solid #333;
+  border-radius: 2px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .speak-button:hover {
